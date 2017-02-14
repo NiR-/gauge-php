@@ -1,0 +1,21 @@
+{
+  "id" : "php",
+  "version" : "1.3.0",
+  "description": "PHP support for gauge",
+  "install": {
+    "windows": [],
+    "linux": [],
+    "darwin": []
+  },
+  "run": {
+    "linux": ["./index.sh", "--start"]
+  },
+  "init": {
+    "linux": ["./index.sh", "--init"]
+  },
+  "lib": "libs",
+  "gaugeVersionSupport": {
+    "minimum": "0.5.1",
+    "maximum": ""
+  }
+}

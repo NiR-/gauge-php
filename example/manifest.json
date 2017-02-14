@@ -1,0 +1,6 @@
+{
+  "Language": "php",
+  "Plugins": [
+    "html-report"
+  ]
+}

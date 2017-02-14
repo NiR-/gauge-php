@@ -1,0 +1,30 @@
+{
+    "name": "knplabs/gauge-php",
+    "authors": [
+        {
+            "name": "Einenlum",
+            "email": "einenlum@vmail.me"
+        },
+        {
+            "name": "Albin Kerouanton",
+            "email": "albin@akerouanton.name"
+        },
+        {
+            "name": "Matthias"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "KnpLabs\\": "src/KnpLabs/",
+            "Gauge\\Messages\\": "generated/Gauge/Messages/",
+            "GPBMetadata\\": "generated/GPBMetadata"
+        }
+    },
+    "require": {
+        "php": ">= 7",
+        "google/protobuf": "~3",
+        "react/socket-client": "^0.5.3",
+        "webmozart/assert": "^1.2",
+        "php-di/php-di": "^5.4"
+    }
+}
